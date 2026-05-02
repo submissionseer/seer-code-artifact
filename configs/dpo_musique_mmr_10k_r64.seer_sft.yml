@@ -1,0 +1,29 @@
+# Place this config file in /workspace/data/seer_sft and run:
+#   python /workspace/seer-sufficiency/scripts/dpo/train.py --config /workspace/data/seer_sft/dpo_musique_mmr_10k_r64.seer_sft.yml
+#
+# All paths are intentionally relative to the config file directory.
+
+sft_adapter: qlora-out-mmr-musique-10k-k3-fullhop
+train_data: musique_dpo_mmr_mingap01143_exhaustive.jsonl
+output_dir: dpo-mmr-musique-10k-ipo-r64-mingap01143-exhaustive
+
+loss_type: ipo
+beta: 0.1
+learning_rate: 5e-7
+num_epochs: 2
+warmup_steps: 150
+
+lora_r: 64
+lora_alpha: 128
+lora_dropout: 0.05
+
+micro_batch_size: 1
+gradient_accumulation_steps: 8
+max_length: 1536
+max_prompt_length: 1280
+
+wandb_project: seer-experiment
+wandb_run_name: dpo-mmr-musique-10k-ipo-r64-mingap01143-exhaustive
+report_to: wandb
+save_steps: 500
+eval_steps: 250

@@ -1,0 +1,42 @@
+# LeReT iteration: start from merged Gold π₁ (SFT + IPO),
+# not from base Llama 3. Provide a merged parent checkpoint at this path
+# before launching this config.
+base_model: /workspace/data/merged_models/gold-iter1-merged
+model_type: LlamaForCausalLM
+tokenizer_type: AutoTokenizer
+load_in_8bit: false
+load_in_4bit: true
+strict: false
+wandb_project: "seer-experiment"
+wandb_run_id: "llama3-8b-sft-gold-iteration-20k-25k"
+wandb_watch: "all"
+datasets:
+  - path: /workspace/data/seer_sft/hotpot_train_sft_gold_iteration_20k_25k.jsonl
+    type: alpaca
+val_set_size: 0.05
+output_dir: /workspace/data/seer_sft/qlora-out-gold-iteration-20k-25k
+adapter: lora
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+lora_target_linear: true
+sequence_len: 2048
+sample_packing: true
+pad_to_sequence_len: true
+gradient_accumulation_steps: 4
+micro_batch_size: 2
+num_epochs: 3
+optimizer: paged_adamw_32bit
+lr_scheduler: cosine
+learning_rate: 0.0002
+train_on_inputs: false
+group_by_length: false
+bf16: true
+fp16: false
+tf32: false
+gradient_checkpointing: true
+logging_steps: 1
+flash_attention: true
+warmup_steps: 10
+special_tokens:
+  pad_token: "<|end_of_text|>"

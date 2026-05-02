@@ -1,0 +1,460 @@
+{
+  "source": "data/raw/musique/raw.jsonl",
+  "notes": "Real MuSiQue samples (2/3/4-hop), string-truncated for compactness with question_decomposition preserved.",
+  "records": [
+    {
+      "id": "2hop__482757_12019",
+      "split": "train",
+      "question": "When was the institute that owned The Collegian founded?",
+      "answer": "1960",
+      "answerable": true,
+      "answer_aliases": [],
+      "question_decomposition": [
+        {
+          "id": 482757,
+          "question": "The Collegian >> owned by",
+          "answer": "Houston Baptist University",
+          "paragraph_support_idx": 5
+        },
+        {
+          "id": 12019,
+          "question": "When was #1 founded?",
+          "answer": "1960",
+          "paragraph_support_idx": 9
+        }
+      ],
+      "paragraphs": [
+        {
+          "idx": 0,
+          "title": "Pakistan Super League",
+          "paragraph_text": "Pakistan Super League (Urdu: پاکستان سپر لیگ ‬ ‎; PSL) is a Twenty20 cricket league, founded in Lahore on 9 September 2015 with five teams and now comprises six teams. Instead of operating as an association of independen...",
+          "is_supporting": false
+        },
+        {
+          "idx": 1,
+          "title": "Serena Wilson",
+          "paragraph_text": "Serena Wilson (August 8, 1933 – June 17, 2007), often known just as \"Serena\", was a well-known dancer, choreographer, and teacher who helped popularize belly dance in the United States. Serena's work also helped legitimi...",
+          "is_supporting": false
+        },
+        {
+          "idx": 2,
+          "title": "Longman",
+          "paragraph_text": "Longman, also known as Pearson Longman, is a publishing company founded in London, England, in 1724 and is owned by Pearson PLC.",
+          "is_supporting": false
+        },
+        {
+          "idx": 3,
+          "title": "Bankhaus Lampe",
+          "paragraph_text": "Bankhaus Lampe is a private bank in Germany, founded in 1852 and headquartered in Bielefeld. It is wholly owned by the Oetker Group. The bank owns 50% of Universal Investment.",
+          "is_supporting": false
+        },
+        {
+          "idx": 4,
+          "title": "Publix",
+          "paragraph_text": "Publix Super Markets, Inc., commonly known as Publix, is an employee - owned, American supermarket chain headquartered in Lakeland, Florida. Founded in 1930 by George W. Jenkins, Publix is a private corporation that is w...",
+          "is_supporting": false
+        },
+        {
+          "idx": 5,
+          "title": "The Collegian (Houston Baptist University)",
+          "paragraph_text": "The Collegian is the bi-weekly official student publication of Houston Baptist University in Houston, Texas. It was founded in 1963 as a newsletter, and adopted the newspaper format in 1990.",
+          "is_supporting": true
+        },
+        {
+          "idx": 6,
+          "title": "The Collegian (Hillsdale College)",
+          "paragraph_text": "The Collegian is the oldest college newspaper in Michigan. The paper's history traces back to 1878, when the Hillsdale Herald was first published. The administration started The Collegian in 1893 as a rival paper to the ...",
+          "is_supporting": false
+        },
+        {
+          "idx": 7,
+          "title": "List of Old Scotch Collegians",
+          "paragraph_text": "This is a list of Old Scotch Collegians, who are notable former students of Scotch College in Melbourne, Victoria, Australia.",
+          "is_supporting": false
+        },
+        {
+          "idx": 8,
+          "title": "Renaissance Broadcasting",
+          "paragraph_text": "Renaissance Broadcasting, founded in 1982 by Michael Finkelstein, was a company that owned several UHF television stations, it was sold to Tribune Broadcasting in 1997. The company was headquartered in Greenwich, Connect...",
+          "is_supporting": false
+        },
+        {
+          "idx": 9,
+          "title": "Houston",
+          "paragraph_text": "Several private institutions of higher learning—ranging from liberal arts colleges, such as The University of St. Thomas, Houston's only Catholic university, to Rice University, the nationally recognized research univers...",
+          "is_supporting": true
+        },
+        {
+          "idx": 10,
+          "title": "France-Guyane",
+          "paragraph_text": "France-Guyane is a daily, French-language newspaper headquartered in Cayenne, French Guiana. Founded in 1973, the newspaper is owned by \"French-Antilles\", which is controlled by the Groupe Hersant Média group.",
+          "is_supporting": false
+        },
+        {
+          "idx": 11,
+          "title": "Bayou City Broadcasting",
+          "paragraph_text": "Bayou City Broadcasting, LLC is a broadcasting company founded in December 2007 and owned by DuJuan McCoy. The company is based in The Woodlands, Texas.",
+          "is_supporting": false
+        },
+        {
+          "idx": 12,
+          "title": "GKS Górnik 1979 Łęczna",
+          "paragraph_text": "GKS Górnik 1979 Łęczna was a short-lived fan-owned phoenix club founded in 2011 by Górnik Łęczna fans who were unhappy with the name change to GKS Bogdanka. The club eventually changed its name back in 2013 but the fan o...",
+          "is_supporting": false
+        },
+        {
+          "idx": 13,
+          "title": "Broadway Federal Bank",
+          "paragraph_text": "The Broadway Federal Bank is a community bank founded in 1946 and based in Los Angeles. As of 2011, it owned and operated three traditional branches and one loan production office.",
+          "is_supporting": false
+        },
+        {
+          "idx": 14,
+          "title": "Gubernija",
+          "paragraph_text": "Gubernija is a brewery in Lithuania. It is one of the oldest businesses in the world, having been founded in 1665. Gubernija is listed on the NASDAQ OMX Vilnius stock exchange. Unlike other Lithuanian breweries, Gubernij...",
+          "is_supporting": false
+        },
+        {
+          "idx": 15,
+          "title": "Nordic Paper",
+          "paragraph_text": "Nordic Paper AS is a Norwegian industrial company, operating in Norway and Sweden. It was founded in 2001 when \"Peterson Scanproof\", a branch of M. Peterson & Søn which consisted of production units in Greåker (formerly ...",
+          "is_supporting": false
+        },
+        {
+          "idx": 16,
+          "title": "Logica",
+          "paragraph_text": "Logica was a multinational IT and management consultancy company headquartered in Reading, United Kingdom. Founded in 1969, the company became a wholly owned subsidiary of CGI Group in 2012.",
+          "is_supporting": false
+        },
+        {
+          "idx": 17,
+          "title": "Skipton Business Finance",
+          "paragraph_text": "Skipton Business Finance is a UK factoring and Invoice discounting company, founded and based in Skipton, North Yorkshire. It is a wholly owned subsidiary of Skipton Building Society.",
+          "is_supporting": false
+        },
+        {
+          "idx": 18,
+          "title": "Brett Kearney",
+          "paragraph_text": "Brett Kearney (born 29 September 1983 in Sydney, New South Wales), also known by the nickname of \"BK\", is an Australian professional rugby league footballer formerly with the Bradford Bulls in the Super League, now curre...",
+          "is_supporting": false
+        },
+        {
+          "idx": 19,
+          "title": "Grand Duchy of Baden State Railway",
+          "paragraph_text": "The Grand Duchy of Baden was an independent state in what is now southwestern Germany until the creation of the German Empire in 1871. It had its own state-owned railway company, the Grand Duchy of Baden State Railways (...",
+          "is_supporting": false
+        }
+      ]
+    },
+    {
+      "id": "3hop2__30654_75297_89329",
+      "split": "train",
+      "question": "Who started the Bethel branch of the religion founded by the black community in the city that used to be the US capitol?",
+      "answer": "Bishop Francis Asbury",
+      "answerable": true,
+      "answer_aliases": [
+        "Francis Asbury"
+      ],
+      "question_decomposition": [
+        {
+          "id": 30654,
+          "question": "What religion did the black community found?",
+          "answer": "African Methodist Episcopal Church",
+          "paragraph_support_idx": 9
+        },
+        {
+          "id": 75297,
+          "question": "where did the us capitol used to be",
+          "answer": "Philadelphia,",
+          "paragraph_support_idx": 19
+        },
+        {
+          "id": 89329,
+          "question": "who started the bethel #1 in #2",
+          "answer": "Bishop Francis Asbury",
+          "paragraph_support_idx": 14
+        }
+      ],
+      "paragraphs": [
+        {
+          "idx": 0,
+          "title": "Black people",
+          "paragraph_text": "By that time, the majority of black people in the United States were native-born, so the use of the term \"African\" became problematic. Though initially a source of pride, many blacks feared that the use of African as an ...",
+          "is_supporting": false
+        },
+        {
+          "idx": 1,
+          "title": "Takashinga Cricket Club",
+          "paragraph_text": "Givemore Makoni told Cricinfo, \"We have changed the name to identify with ourselves and our community. We are a black club, and 'Winstonians' does not identify with us in any way. 'Takashinga' means we are brave and we w...",
+          "is_supporting": false
+        },
+        {
+          "idx": 2,
+          "title": "United States Capitol",
+          "paragraph_text": "United States Capitol United States Capitol, west front Show map of Central Washington, D.C. Show map of the US Show all General information Architectural style American neoclassicism Town or city Capitol Hill, Washingto...",
+          "is_supporting": false
+        },
+        {
+          "idx": 3,
+          "title": "Ryan Lackey",
+          "paragraph_text": "Lackey returned to the US and located in San Francisco where he worked for a number of start-up companies before applying to Y Combinator. He was accepted into Y Combinator's Summer 2011 round. Lackey founded CryptoSeal,...",
+          "is_supporting": false
+        },
+        {
+          "idx": 4,
+          "title": "Bethel, Illinois",
+          "paragraph_text": "Bethel is a former community in Clay County, Illinois, United States. Bethel was located in Songer Township, along a railroad line north of Greendale.",
+          "is_supporting": false
+        },
+        {
+          "idx": 5,
+          "title": "Hadassah Women's Zionist Organization of America",
+          "paragraph_text": "330,000 members in the United States. Hadassah fundraises for community programs and health initiatives in Israel, including the Hadassah Medical Center, a leading research hospital in Israel renowned for its inclusion o...",
+          "is_supporting": false
+        },
+        {
+          "idx": 6,
+          "title": "Tuntutuliak Airport",
+          "paragraph_text": "Tuntutuliak Airport is a state-owned public-use airport located one nautical mile (1.85 km) south of the central business district of Tuntutuliak, in the Bethel Census Area of the U.S. state of Alaska.",
+          "is_supporting": false
+        },
+        {
+          "idx": 7,
+          "title": "759: Boy Scouts of Harlem",
+          "paragraph_text": "The film premiered as a free community event on March 14, 2009 at the Schomburg Center for Research in Black Culture in Harlem on Malcolm X Boulevard. Two weeks later it screened on board the Intrepid Sea-Air-Space Museu...",
+          "is_supporting": false
+        },
+        {
+          "idx": 8,
+          "title": "Masha Hamilton",
+          "paragraph_text": "Masha Hamilton is a United States journalist and the author of five novels. She founded two world literacy projects, and has worked as head of communications for the US Embassy in Afghanistan and the NGO Concern Worldwid...",
+          "is_supporting": false
+        },
+        {
+          "idx": 9,
+          "title": "Philadelphia",
+          "paragraph_text": "The state government left Philadelphia in 1799, and the federal government was moved to Washington, DC in 1800 with completion of the White House and Capitol. The city remained the young nation's largest with a populatio...",
+          "is_supporting": true
+        },
+        {
+          "idx": 10,
+          "title": "Germany",
+          "paragraph_text": "In 2011, 33% of Germans were not members of officially recognised religious associations with special status. Irreligion in Germany is strongest in the former East Germany, which used to be predominantly Protestant befor...",
+          "is_supporting": false
+        },
+        {
+          "idx": 11,
+          "title": "Yupiit School District",
+          "paragraph_text": "The Yupiit School District serves students in the Akiachak, Akiak, and Tuluksak communities in the Bethel Census Area of the U.S. state of Alaska.",
+          "is_supporting": false
+        },
+        {
+          "idx": 12,
+          "title": "Platinum Airport",
+          "paragraph_text": "Platinum Airport is a state-owned public-use airport located in Platinum, in the Bethel Census Area of the U.S. state of Alaska.",
+          "is_supporting": false
+        },
+        {
+          "idx": 13,
+          "title": "Nigeria",
+          "paragraph_text": "Among Christians, the Pew Research survey found that 74% were Protestant, 25% were Catholic, and 1% belonged to other Christian denominations, including a small Orthodox Christian community. In terms of Nigeria's major e...",
+          "is_supporting": false
+        },
+        {
+          "idx": 14,
+          "title": "Mother Bethel A.M.E. Church",
+          "paragraph_text": "The church was organized by African - American members of St. George's Methodist Church who walked out due to racial segregation in the worship services. Mother Bethel was one of the first African - American churches in ...",
+          "is_supporting": true
+        },
+        {
+          "idx": 15,
+          "title": "Longworth House Office Building",
+          "paragraph_text": "The Longworth House Office Building (LHOB) is one of three office buildings used by the United States House of Representatives. The building is located south of the Capitol, bounded by Independence Avenue, New Jersey Ave...",
+          "is_supporting": false
+        },
+        {
+          "idx": 16,
+          "title": "Black Mark Production",
+          "paragraph_text": "Black Mark Production (founded 1991) is an independent record label originally based in Berlin, later on with offices in Stockholm, Toronto and New York City etc. Black Mark Productions today is a worldwide operating bus...",
+          "is_supporting": false
+        },
+        {
+          "idx": 17,
+          "title": "Mount Bethel, Pennsylvania",
+          "paragraph_text": "Mount Bethel is an unincorporated community in Upper Mount Bethel Township in Northampton County, Pennsylvania, United States. Mount Bethel is located along Pennsylvania Route 611 north of the intersection with Pennsylva...",
+          "is_supporting": false
+        },
+        {
+          "idx": 18,
+          "title": "Bethel College (Kentucky)",
+          "paragraph_text": "The institution opened as Bethel Female High School in Hopkinsville, while the Russellville campus opened as Russellville Male Academy. The Hopkinsville campus changed its name to Bethel College for Women four years late...",
+          "is_supporting": false
+        },
+        {
+          "idx": 19,
+          "title": "United States Capitol",
+          "paragraph_text": "Prior to establishing the nation's capital in Washington, D.C., the United States Congress and its predecessors had met in Philadelphia (Independence Hall and Congress Hall), New York City (Federal Hall), and a number of...",
+          "is_supporting": true
+        }
+      ]
+    },
+    {
+      "id": "4hop1__38130_8966_31714_79432",
+      "split": "train",
+      "question": "Where is the lowest place in the country which, along with Eisenhower's VP's country, recognized Gaddafi's government early on?",
+      "answer": "Holme Fen, Cambridgeshire",
+      "answerable": true,
+      "answer_aliases": [
+        "Holme Fen"
+      ],
+      "question_decomposition": [
+        {
+          "id": 38130,
+          "question": "Who served as Eisenhower's vice president?",
+          "answer": "Nixon",
+          "paragraph_support_idx": 17
+        },
+        {
+          "id": 8966,
+          "question": "#1 was a president of what country?",
+          "answer": "U.S.",
+          "paragraph_support_idx": 5
+        },
+        {
+          "id": 31714,
+          "question": "Along with the #2 , what major power recognized Gaddafi's government at an early date?",
+          "answer": "U.K.",
+          "paragraph_support_idx": 8
+        },
+        {
+          "id": 79432,
+          "question": "where is the lowest place in the #3",
+          "answer": "Holme Fen, Cambridgeshire",
+          "paragraph_support_idx": 4
+        }
+      ],
+      "paragraphs": [
+        {
+          "idx": 0,
+          "title": "Alfredo Palacio",
+          "paragraph_text": "Luis Alfredo Palacio González (born January 22, 1939) is an Ecuadorian cardiologist and former politician who served as President of Ecuador from April 20, 2005 to January 15, 2007. From January 15, 2003 to April 20, 200...",
+          "is_supporting": false
+        },
+        {
+          "idx": 1,
+          "title": "Vice President of Nigeria",
+          "paragraph_text": "The Vice President of Nigeria is the second - in - command to the President of Nigeria in the Government of Nigeria. Officially styled Vice President of the Federal Republic of Nigeria, the Vice President is elected alon...",
+          "is_supporting": false
+        },
+        {
+          "idx": 2,
+          "title": "Dwight D. Eisenhower",
+          "paragraph_text": "Eisenhower was the last president born in the 19th century, and at age 62, was the oldest man elected President since James Buchanan in 1856 (President Truman stood at 64 in 1948 as the incumbent president at the time of...",
+          "is_supporting": false
+        },
+        {
+          "idx": 3,
+          "title": "Marion B. Folsom",
+          "paragraph_text": "Marion Bayard Folsom (November 23, 1893 – September 27, 1976) was an American government official and businessman. He served as the U.S. Secretary of Health, Education and Welfare from 1955 to 1958 under President Dwight...",
+          "is_supporting": false
+        },
+        {
+          "idx": 4,
+          "title": "List of extreme points of the United Kingdom",
+          "paragraph_text": "Lowest point -- Holme Fen, Cambridgeshire, 3 m below sea level at 52 ° 29 ′ N 0 ° 13 ′ W ﻿ / ﻿ 52.483 ° N 0.217 ° W ﻿ / 52.483; - 0.217",
+          "is_supporting": true
+        },
+        {
+          "idx": 5,
+          "title": "Josip Broz Tito",
+          "paragraph_text": "Yugoslavia had a liberal travel policy permitting foreigners to freely travel through the country and its citizens to travel worldwide, whereas it was limited by most Communist countries. A number[quantify] of Yugoslav c...",
+          "is_supporting": true
+        },
+        {
+          "idx": 6,
+          "title": "Federal government of the United States",
+          "paragraph_text": "The executive power in the federal government is vested in the President of the United States, although power is often delegated to the Cabinet members and other officials. The president and vice president are elected as...",
+          "is_supporting": false
+        },
+        {
+          "idx": 7,
+          "title": "Dwight D. Eisenhower",
+          "paragraph_text": "In the 1960 election to choose his successor, Eisenhower endorsed his own Vice President, Republican Richard Nixon against Democrat John F. Kennedy. He told friends, \"I will do almost anything to avoid turning my chair a...",
+          "is_supporting": false
+        },
+        {
+          "idx": 8,
+          "title": "Muammar Gaddafi",
+          "paragraph_text": "After the 1969 coup, representatives of the Four Powers – France, the United Kingdom, the United States and the Soviet Union – were called to meet RCC representatives. The U.K. and U.S. quickly extended diplomatic recogn...",
+          "is_supporting": true
+        },
+        {
+          "idx": 9,
+          "title": "President of the Senate",
+          "paragraph_text": "Vice presidents have cast 261 tie - breaking votes since the U.S. federal government was established in 1789. The vice president with the most tie breaking votes is John Adams (served 1789 -- 1797) with 29. The current V...",
+          "is_supporting": false
+        },
+        {
+          "idx": 10,
+          "title": "United States Electoral College",
+          "paragraph_text": "If no candidate for president receives a majority of electoral votes for president, the Twelfth Amendment provides that the House of Representatives will select the president, with each of the fifty state delegations cas...",
+          "is_supporting": false
+        },
+        {
+          "idx": 11,
+          "title": "Affirmative action in the United States",
+          "paragraph_text": "When Eisenhower was elected President in 1952, he believed hiring practices and anti-discrimination laws should be decided by the states, although the administration gradually continued to desegregate the Armed Forces an...",
+          "is_supporting": false
+        },
+        {
+          "idx": 12,
+          "title": "Ivan Ivanovich Tolstoy",
+          "paragraph_text": "Count Ivan Ivanovich Tolstoy (1858—1916) was an Imperial Russian politician. He served as Vice President of the Russian Imperial Academy of Arts while Grand Duke Vladimir Alexandrovich was Academy President. He later ser...",
+          "is_supporting": false
+        },
+        {
+          "idx": 13,
+          "title": "Vice President of Liberia",
+          "paragraph_text": "The Vice President of the Republic of Liberia is the second - highest executive official in Liberia, and one of only two elected executive offices along with the President. The Vice President is elected on the same ticke...",
+          "is_supporting": false
+        },
+        {
+          "idx": 14,
+          "title": "Presiding Officer of the United States Senate",
+          "paragraph_text": "The Constitution also provides for appointment of one of the elected senators to serve as President pro tempore. This senator presides when the vice president is absent from the body. The president pro tempore is selecte...",
+          "is_supporting": false
+        },
+        {
+          "idx": 15,
+          "title": "Separation of powers under the United States Constitution",
+          "paragraph_text": "Strict separation of powers did not operate in The United Kingdom, the political structure of which served in most instances[citation needed] as a model for the government created by the U.S. Constitution.[citation neede...",
+          "is_supporting": false
+        },
+        {
+          "idx": 16,
+          "title": "List of Mills government ministers",
+          "paragraph_text": "This is a listing of the ministers who served in the National Democratic Congress government of John Atta Mills in Ghana starting from 7 January 2009. The Mills presidency ended on 24 July 2012 when President John Atta M...",
+          "is_supporting": false
+        },
+        {
+          "idx": 17,
+          "title": "Dwight D. Eisenhower",
+          "paragraph_text": "On the domestic front, he covertly opposed Joseph McCarthy and contributed to the end of McCarthyism by openly invoking the modern expanded version of executive privilege. He otherwise left most political activity to his...",
+          "is_supporting": true
+        },
+        {
+          "idx": 18,
+          "title": "United States Senate",
+          "paragraph_text": "The presiding officer of the Senate is the Vice President of the United States, who is President of the Senate. In the Vice President's absence, the President Pro Tempore, who is customarily the senior member of the part...",
+          "is_supporting": false
+        },
+        {
+          "idx": 19,
+          "title": "Eisenhower National Historic Site",
+          "paragraph_text": "Eisenhower National Historic Site preserves the home and farm of Dwight D. Eisenhower, the 34th President of the United States, and its surrounding property of . It is located in Cumberland Township, Adams County, Pennsy...",
+          "is_supporting": false
+        }
+      ]
+    }
+  ]
+}

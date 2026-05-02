@@ -1,0 +1,29 @@
+project_root: .
+logs_dir: data/artifacts/logs
+cache_dir: data/cached_judges
+rollouts_dir: data/rollouts
+norm_dir: data/norm
+raw_dir: data/raw
+datasets:
+  - musique
+  - hotpot
+judges:
+  primary_model: openai/gpt-4o-mini  # Used for Seer judge
+  models:
+    - name: judge_a
+      slug: gpt-4o-mini
+    - name: judge_b
+      slug: claude-3-haiku
+    - name: judge_c
+      slug: gemini
+reader:
+  model: google/gemini-2.5-flash
+rewriter:
+  model: openrouter/meta-llama/llama-3-8b-instruct  # Used for query rewriting (FrugalRAG-style)
+retrieval:
+  top_k: 8
+labeling:
+  sufficiency_queries: 150
+  decomposition_queries: 120
+optimization:
+  rewrite_variants: 4

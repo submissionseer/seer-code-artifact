@@ -1,0 +1,28 @@
+# Gold 5K IPO — LoRA r=64 Ablation
+# Same as dpo_gold_5k.yml but with 4x higher LoRA rank for DPO adapter
+# Tests whether QLoRA capacity bottleneck limits IPO gains
+# Baseline (r=16): 61.98% H2 AP, IPO gain = +2.24pp
+
+sft_adapter: /workspace/data/seer_sft/qlora-out-gold-5k-k3
+train_data: /workspace/data/seer_sft/hotpot_dpo_gold_5k_seer_ctx.jsonl
+output_dir: /workspace/data/dpo_out/dpo-gold-5k-ipo-r64
+
+loss_type: ipo
+beta: 0.1
+learning_rate: 5e-7
+num_epochs: 2
+warmup_steps: 150
+
+lora_r: 64
+lora_alpha: 128
+lora_dropout: 0.05
+
+micro_batch_size: 1
+gradient_accumulation_steps: 8
+max_length: 1536
+max_prompt_length: 1280
+
+wandb_project: seer-experiment
+wandb_run_name: dpo-gold-5k-ipo-r64
+save_steps: 500
+eval_steps: 250

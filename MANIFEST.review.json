@@ -1,0 +1,593 @@
+{
+  "created_utc": "2026-05-02T18:30:01+00:00",
+  "bundle_type": "anonymized-code-review",
+  "dataset_claim": false,
+  "file_count": 116,
+  "bundle_file_count": 117,
+  "inventory_excludes": [
+    "MANIFEST.review.json"
+  ],
+  "scan_findings": [],
+  "files": [
+    {
+      "path": ".env.example",
+      "size_bytes": 249,
+      "sha256": "93fd2c4c881dd08fcb21bf140c648ae25f352dd22de6223dd849f93b637262b2"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 1056,
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685"
+    },
+    {
+      "path": "Makefile",
+      "size_bytes": 2147,
+      "sha256": "73eb11b1bee6c0ca58dda004a5df28da5a09a19319a27e22180b6126de46e269"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 9132,
+      "sha256": "d456cf4796c47bb416d36868a96c50dd2599459cf059424b762367ee6fdcc017"
+    },
+    {
+      "path": "RELEASE.md",
+      "size_bytes": 3482,
+      "sha256": "9a2f52946dfe8ef969cfe770057b3f362b333ba3e72ad6949913c08e7ef91cec"
+    },
+    {
+      "path": "REPRO.md",
+      "size_bytes": 16110,
+      "sha256": "f211699d9fa841e9063215c46d17200fefaf8d6b0f21faeaf533acf81b9c6389"
+    },
+    {
+      "path": "configs/datasets.yaml",
+      "size_bytes": 205,
+      "sha256": "b56fb567dec68e385828da3bf271ac7e86d7370a6ee4293853a6001601e09602"
+    },
+    {
+      "path": "configs/default.yaml",
+      "size_bytes": 654,
+      "sha256": "36f84e68103d6957f0296458f6f795db25cff99f8cda76cbaf0c74cf59591be4"
+    },
+    {
+      "path": "configs/dpo_gold_10k_r64.yml",
+      "size_bytes": 831,
+      "sha256": "fde6c1ed42b39af8a717453197fc58774994bf2bc6f8dfbee91cd82bb030a52a"
+    },
+    {
+      "path": "configs/dpo_gold_5k_r64.yml",
+      "size_bytes": 724,
+      "sha256": "69030b17ff62bd1899795e9b31b568ca36c2b83ce46911601e158bb79020c2d1"
+    },
+    {
+      "path": "configs/dpo_gold_iteration_20k_25k_r64.yml",
+      "size_bytes": 1046,
+      "sha256": "dd9d1769dc523de462e3d16e8cb3b3017832daf53d8fd2388e7ffa80f8ed5c88"
+    },
+    {
+      "path": "configs/dpo_mmr_10k_r64.yml",
+      "size_bytes": 729,
+      "sha256": "5d16c13a3d45590bc0422bbb40229bed5684880cec5f2e6380273a3c951db4eb"
+    },
+    {
+      "path": "configs/dpo_mmr_5k_r64.yml",
+      "size_bytes": 707,
+      "sha256": "94ce360573625d8225e649f1514c100c0f7fc4574f2f56dfa6708da7f02a407a"
+    },
+    {
+      "path": "configs/dpo_mmr_iteration_20k_25k_r64.yml",
+      "size_bytes": 1422,
+      "sha256": "f8619295da5cf6a9761bf6a9dbbff5d0402dd9ae8a4b4bc53aab553acc1cffbd"
+    },
+    {
+      "path": "configs/dpo_musique_gold_10k_r64.seer_sft.yml",
+      "size_bytes": 763,
+      "sha256": "20708c56bc7cd7c9b32332ba62031880c92c5daf9cb6319acbf80b5f36435316"
+    },
+    {
+      "path": "configs/dpo_musique_mmr_10k_r64.seer_sft.yml",
+      "size_bytes": 801,
+      "sha256": "714f6e33420ab762c118e1f1237667c6509c3251e4c2679c016903879d00ae14"
+    },
+    {
+      "path": "configs/dpo_musique_raw_jina_maxmean_10k_r64.seer_sft.yml",
+      "size_bytes": 853,
+      "sha256": "48a75472bcef8c9c635d3d7a6834af6565d5b28fe0dc389b55fdb122c29653db"
+    },
+    {
+      "path": "configs/dpo_raw_jina_maxmean_5k_r64.yml",
+      "size_bytes": 758,
+      "sha256": "505d6281d5aad5b90bdeba514600ae8645795bc8f59fc0c6861f00dc1a85f903"
+    },
+    {
+      "path": "configs/judges.yaml",
+      "size_bytes": 228,
+      "sha256": "13ee897490fafd95ab7eab37b65e670b429355698b2bc6d8ecf310bc2dfb0a21"
+    },
+    {
+      "path": "configs/llama3_sft_gold_iteration_20k_25k_runpod.yml",
+      "size_bytes": 1140,
+      "sha256": "71892e8569b11d9a883ca60f5cfb33ebd5409c818ce3157b8c7da856ff1e1b5c"
+    },
+    {
+      "path": "configs/llama3_sft_gold_k3_N5000_runpod.yml",
+      "size_bytes": 929,
+      "sha256": "05d816e36b5669aad58f7a0742ed9a01d38a7b3d54d1b709b2f43354e3749f29"
+    },
+    {
+      "path": "configs/llama3_sft_gold_musique_k3_N10000_runpod.yml",
+      "size_bytes": 966,
+      "sha256": "d654c14c7f4a10e72359610bc64fe3f9c58a56a301f58e1e3188e8743047ea46"
+    },
+    {
+      "path": "configs/llama3_sft_jina_mmr_k3_N5000_runpod.yml",
+      "size_bytes": 941,
+      "sha256": "1a84c36925ade2fe2b345d68d91cf563bb875a3a0717138bc8544558456e05f8"
+    },
+    {
+      "path": "configs/llama3_sft_mmr_iteration_20k_25k_runpod.yml",
+      "size_bytes": 1146,
+      "sha256": "7b8b50c67a81551b9cffdda70a8b72540ddeee1cdcc790aadc9d4dff493d4094"
+    },
+    {
+      "path": "configs/llama3_sft_mmr_musique_k3_N10000_fullhop_runpod.yml",
+      "size_bytes": 987,
+      "sha256": "46cce1305242949425b26dc34e2da08934ec84ecb80aec1f13d37df6bc4bc122"
+    },
+    {
+      "path": "poetry.lock",
+      "size_bytes": 702348,
+      "sha256": "c431faa563367f8de4a0f93f55ec70597845f7a2152d202a7c36256f06dfd7cf"
+    },
+    {
+      "path": "pyproject.toml",
+      "size_bytes": 1017,
+      "sha256": "257a584c9a7ea9cfd037d2b5759093e7312410193af4018fd150230e6a6f8c87"
+    },
+    {
+      "path": "scripts/bootstrap.sh",
+      "size_bytes": 284,
+      "sha256": "109f4699e5b4cef573dc96e992de6a1df919a8108f67eb3d28cca2a0f6af62aa"
+    },
+    {
+      "path": "scripts/download_colbert_index.py",
+      "size_bytes": 3507,
+      "sha256": "e9576b237938dc8ca6291063c9761b4b17c613fb88e8a9e4c0d9cbc7b226bf71"
+    },
+    {
+      "path": "scripts/download_datasets.py",
+      "size_bytes": 2495,
+      "sha256": "ab4c45e60dcf61f26f0eb877ada3d47810d70cc01112a3bb007d3bf65edee0d1"
+    },
+    {
+      "path": "scripts/dpo/analyze_pairs.py",
+      "size_bytes": 13442,
+      "sha256": "b027d472475666f88f15c7835952f8a65218451de6f1601c5f07d336ca9c7ba0"
+    },
+    {
+      "path": "scripts/dpo/generate.py",
+      "size_bytes": 54678,
+      "sha256": "7eecf58b90bec735c0fb8aa60e4d2a3a0cb0f5cb9733f3536d2f42ce6da4de0a"
+    },
+    {
+      "path": "scripts/dpo/prepare.py",
+      "size_bytes": 10962,
+      "sha256": "d1b36005ce9e413602ee56bf886159e85d365ae2590cdbe230b2b986131fd914"
+    },
+    {
+      "path": "scripts/dpo/score.py",
+      "size_bytes": 21417,
+      "sha256": "4e871192f36ae39359aeec550a65514d0d93f964e957febf402adf7e4177a565"
+    },
+    {
+      "path": "scripts/dpo/train.py",
+      "size_bytes": 14219,
+      "sha256": "95558b8bc164cbac8f6b4d5f3f44af1ec5164ada677056ce9900bff59e77f6ec"
+    },
+    {
+      "path": "scripts/dpo/validate.py",
+      "size_bytes": 9534,
+      "sha256": "eee6d0830bb69a0b78af328130cb4db69cd4667a364c75d81261d14189b8d196"
+    },
+    {
+      "path": "scripts/env_check.py",
+      "size_bytes": 600,
+      "sha256": "d7c97ed2d19a53cd4b9d4b70732a12936dac8cba9f5befa1bd694b0da516775d"
+    },
+    {
+      "path": "scripts/eval/compare_rollout_reader_em.py",
+      "size_bytes": 28747,
+      "sha256": "9d672b8a183a67dfcba3c2e183dbe6fb34742af8f20b70927e22c7e288353cc3"
+    },
+    {
+      "path": "scripts/eval/monitoring_signal_report.py",
+      "size_bytes": 20198,
+      "sha256": "5d2bb3786953c76f468979f7043413e8bc01bbfffa5251c028b9cbb1a1024663"
+    },
+    {
+      "path": "scripts/eval/score_rollouts.py",
+      "size_bytes": 10279,
+      "sha256": "11010baf1d5530e28ae2a8c6cd862982d2200f9f1fa46f0c253f99e5c67507d8"
+    },
+    {
+      "path": "scripts/merge_model.py",
+      "size_bytes": 2043,
+      "sha256": "70bc6e8f1146c1ea125027f0511a05746470db2d4ee7c6d1bc642184f7283255"
+    },
+    {
+      "path": "scripts/normalize_datasets.py",
+      "size_bytes": 2789,
+      "sha256": "edc012e8673bfebedbf46cddb17c75956ff58eaad06756bfe716e64c55195191"
+    },
+    {
+      "path": "scripts/release/export_review_bundle.py",
+      "size_bytes": 14212,
+      "sha256": "b309c959a2f3e6b01405416761f1282c770ac376df634fa9deab65034de3804f"
+    },
+    {
+      "path": "scripts/release/release_smoke.py",
+      "size_bytes": 13256,
+      "sha256": "677885e080435d840da9f2927153c57739012dc62bff8a4626905400f78e9b3d"
+    },
+    {
+      "path": "scripts/rollouts/README.md",
+      "size_bytes": 2808,
+      "sha256": "95f422200768b9276c88fc16a1dcfca08f22bf56a073dad231adf9d3762c8bcc"
+    },
+    {
+      "path": "scripts/rollouts/generate.py",
+      "size_bytes": 78613,
+      "sha256": "24af3f5cb9b04617fee6b6a29ca650d7cfae90e78e6032918d44e6238b3fe172"
+    },
+    {
+      "path": "scripts/runpod_musique/README.md",
+      "size_bytes": 6012,
+      "sha256": "a9f2de55ee16ce3172c8692798a780dc3142f81b25a063643ab0ae6bc372d9a6"
+    },
+    {
+      "path": "scripts/runpod_musique/build_colbert_wiki20m_runpod.sh",
+      "size_bytes": 6835,
+      "sha256": "580bae2f0e420a2084f3b2594c1f6f6ba3557f08206f2ea6c774da977fc88b33"
+    },
+    {
+      "path": "scripts/runpod_musique/convert_psgs_to_colbert_collection.py",
+      "size_bytes": 2259,
+      "sha256": "9a477c0aa356f44c341e37155de95790a7c939eab3ca5482ab38592cb5b6a6c9"
+    },
+    {
+      "path": "scripts/runpod_musique/deploy_and_start_job.sh",
+      "size_bytes": 4109,
+      "sha256": "89a71b15d3fbc05cfc4327cfe2a2e9057f68557187bb3ee09968789287ff7699"
+    },
+    {
+      "path": "scripts/runpod_musique/index_wiki20m_colbert_api.py",
+      "size_bytes": 8246,
+      "sha256": "4b7f1d5e7fa084c913cc54d9400a28255314e3785b8dbf1ac18a580df8caf7c8"
+    },
+    {
+      "path": "scripts/runpod_musique/musique_download_models_from_s3.sh",
+      "size_bytes": 2972,
+      "sha256": "a92ac61f930df2a354fe8fc2ee95ffdcbb923ad31f305c04dc9ba898295590c6"
+    },
+    {
+      "path": "scripts/runpod_musique/musique_upload_models_to_s3.sh",
+      "size_bytes": 3343,
+      "sha256": "09f833ac91b9a4e3d08e6bebe7f20566aeb9bc3955029d17f6481a79bcb22026"
+    },
+    {
+      "path": "scripts/runpod_musique/requirements-colbert-serve.txt",
+      "size_bytes": 318,
+      "sha256": "cd13712afcc811e6ba79187cef0fff0b2a6b6f047f2acb9496f5af1c31ba0ef0"
+    },
+    {
+      "path": "scripts/runpod_musique/runpod_job.sh",
+      "size_bytes": 14602,
+      "sha256": "f99e7b37e7566464b8004301f473bcca647fc5e128f09861d526f3ef19e83666"
+    },
+    {
+      "path": "scripts/runpod_musique/s3_colbert_assets.sh",
+      "size_bytes": 9286,
+      "sha256": "756ec738e399d95a5ecf22e1da5c1253e8c1ce1c0758079ffd3a8feb24676a5b"
+    },
+    {
+      "path": "scripts/runpod_musique/serve_colbert_min.py",
+      "size_bytes": 2148,
+      "sha256": "4ab3ee8d766f5c309cc990c7c5359e5d42858b220616e27553ec267a8cb1f2cf"
+    },
+    {
+      "path": "scripts/runpod_musique/start_colbert_service.sh",
+      "size_bytes": 5501,
+      "sha256": "8754844df085b2225abe3874550b55128f03c51ccd6dc48e75cfccd74ee0f24f"
+    },
+    {
+      "path": "scripts/runpod_musique/start_eval_stack.sh",
+      "size_bytes": 4499,
+      "sha256": "9fc152284aaba4b3fa45bb4ed265557257c4fd899f61d7bdc5e44ad8f5570a7e"
+    },
+    {
+      "path": "scripts/sft/README.md",
+      "size_bytes": 2838,
+      "sha256": "2b47bd4d2003b803f61d17b0dc749350399dff2ba73e74e63e3c9732c8d6aada"
+    },
+    {
+      "path": "scripts/sft/eval.py",
+      "size_bytes": 38062,
+      "sha256": "5d0b8e498d4570483816683d3d6014acb33671e0a60a925eca961a2e088fc454"
+    },
+    {
+      "path": "scripts/sft/prepare_data.py",
+      "size_bytes": 42658,
+      "sha256": "84709671c019c989587372ba808001e7d1dde5f8f099ed568917ac0b9fdca281"
+    },
+    {
+      "path": "scripts/sft/train.py",
+      "size_bytes": 1650,
+      "sha256": "a7c001f19b5421a3ac4311c761f995365cfb99b09759f27818506b196b2df0e3"
+    },
+    {
+      "path": "seer/__init__.py",
+      "size_bytes": 40,
+      "sha256": "2445f7d16f2a505f1956277d2bea270bea6e1a3edb594bbda71c2fa7d6140857"
+    },
+    {
+      "path": "seer/datasets/__init__.py",
+      "size_bytes": 798,
+      "sha256": "399960dfc314680a4e87938c7137abfb4d1b3b8d8aa49d5160484eecec6fb2b2"
+    },
+    {
+      "path": "seer/datasets/base.py",
+      "size_bytes": 1255,
+      "sha256": "6135aacf52b1df543813ddd7161a0ffec0fcd49150137ca2f2d0266b322ba309"
+    },
+    {
+      "path": "seer/datasets/hotpot.py",
+      "size_bytes": 5544,
+      "sha256": "3c51fa95a3afb505839404360e3d09fe638ad41db6f85ca33ae06af5830bb079"
+    },
+    {
+      "path": "seer/datasets/musique.py",
+      "size_bytes": 3456,
+      "sha256": "dc22eff60be96f4f0ee58a0fe1905ec2c9d8d931e6d94cd6a02a12b6f2c0850a"
+    },
+    {
+      "path": "seer/datasets/schema.py",
+      "size_bytes": 3755,
+      "sha256": "4ee35b638c8432c718c9671e1a8747e5ab6979314b00084cae041c3a989e0dc6"
+    },
+    {
+      "path": "seer/dpo_utils.py",
+      "size_bytes": 3116,
+      "sha256": "424a5dfa60c059a402358173e9af7ed0d081b2400344e4ec36bf254a2b93d542"
+    },
+    {
+      "path": "seer/figures.py",
+      "size_bytes": 529,
+      "sha256": "eaf8d58a1976bfb3fe8b1cbd46e7e1483709ea279d31904d0befd9b59f99be24"
+    },
+    {
+      "path": "seer/gold_metrics.py",
+      "size_bytes": 625,
+      "sha256": "f05e6a44cd810a287fb26bd4017e0241dceb1b8e46da58d13e37fa9ea77bc444"
+    },
+    {
+      "path": "seer/inference_server.py",
+      "size_bytes": 13083,
+      "sha256": "7f0d4be1218e8d175ce3542f6b2cb4c3a5f68a937e0de3b4171cf3e83fcabb1b"
+    },
+    {
+      "path": "seer/local_inference.py",
+      "size_bytes": 2950,
+      "sha256": "1a04898eb1bb9488d3a68bcd5d3664e6bd2bfe426535a4118b0aacb72a6c5d41"
+    },
+    {
+      "path": "seer/openrouter.py",
+      "size_bytes": 6914,
+      "sha256": "7cd75b5c9fea33eb281ad589bb2fd97a75725c96f94bb9d117fb2b66feda43b1"
+    },
+    {
+      "path": "seer/openrouter_lm.py",
+      "size_bytes": 3087,
+      "sha256": "6ca24e17aa81120d13c71817b6a11fab39d9027892c09062dc99eb63c8339a52"
+    },
+    {
+      "path": "seer/parse_seer_xml.py",
+      "size_bytes": 2103,
+      "sha256": "c8d95eeee6c404e5908f033e314ed139e1a047edb91d6c27cde9bb7ee982ba36"
+    },
+    {
+      "path": "seer/prompt_seer_structured.py",
+      "size_bytes": 1010,
+      "sha256": "d74a08272a44d57f72c1fc6cd54e04d2c1f9c504fe29ae19bb04b9fd4f2026e7"
+    },
+    {
+      "path": "seer/prompt_seer_xml.py",
+      "size_bytes": 1330,
+      "sha256": "7bfbd259da41ac0d69e1a00790ab5bf39fb7783eccfe1e7af8bcb3b77313dde6"
+    },
+    {
+      "path": "seer/prompt_seer_xml_fewshot.py",
+      "size_bytes": 9321,
+      "sha256": "042dbe1261e50b0f8bf0c75264f03e0f5a86f531fd46e23e8806257528e8abd2"
+    },
+    {
+      "path": "seer/prompt_seer_xml_gepa.py",
+      "size_bytes": 4344,
+      "sha256": "857da5fe14209b05043aae4d3e6deca390fdecf1c6ce12e416a96eefb5af646a"
+    },
+    {
+      "path": "seer/prompt_seer_xml_miprov2.py",
+      "size_bytes": 10944,
+      "sha256": "ca541b9ca03229ccd534fcd3a3a70860c1eb9f692e7250bf6ba07c4d3cdba211"
+    },
+    {
+      "path": "seer/prompt_seer_xml_optimized.py",
+      "size_bytes": 4395,
+      "sha256": "2a0979a8855ca3fb787aafde06bbc443f097836441a03df765266cd78f2dcab2"
+    },
+    {
+      "path": "seer/prompt_seer_xml_strict.py",
+      "size_bytes": 1094,
+      "sha256": "8424a6983eeb4ce0e8d9f5d06009272d72da06f4d5ed6bc2ce9a00500fee4ddf"
+    },
+    {
+      "path": "seer/prompt_seer_xml_v2.py",
+      "size_bytes": 4046,
+      "sha256": "ccffd3290ca39a691629760ffafdf25a25d5877e4061ab6713313b6207777c3e"
+    },
+    {
+      "path": "seer/prompt_seer_xml_v2b.py",
+      "size_bytes": 3473,
+      "sha256": "15277fb15502bab284530eb308c0c8e06065034bacb110b5b71a72785464a31d"
+    },
+    {
+      "path": "seer/prompt_seer_xml_v3_hybrid.py",
+      "size_bytes": 11053,
+      "sha256": "421e102b51f94273a57d681081810341743018b19a3d22496d88869a8bec4162"
+    },
+    {
+      "path": "seer/prompt_variants.py",
+      "size_bytes": 7901,
+      "sha256": "b7b801d326e66c432a4b67a82f1a2b164d248a03f9f368fe1226d868c8c6fd1b"
+    },
+    {
+      "path": "seer/reader_eval.py",
+      "size_bytes": 7553,
+      "sha256": "1e2616b1ee28683ac1a73d164b2b357288a12c255fb14856b48dac352af88581"
+    },
+    {
+      "path": "seer/retrieval_utils.py",
+      "size_bytes": 5244,
+      "sha256": "562812470510740693b74257760e96f3ddfdd8d6b773cae73023829ade2024c6"
+    },
+    {
+      "path": "seer/retriever_with_score.py",
+      "size_bytes": 1233,
+      "sha256": "21ec4d390659dc6dc8e1a1833bd8ace4f8e8c4eb58b3700a3dd7a5625278f1f6"
+    },
+    {
+      "path": "seer/rollout_metrics.py",
+      "size_bytes": 3792,
+      "sha256": "54260c75b0daedf2a924dc12a9b99892868b6b3188a46c45c3acd79e5ac1629c"
+    },
+    {
+      "path": "seer/sampling.py",
+      "size_bytes": 491,
+      "sha256": "b9eac91c718e97ab120721d230d3e37546cfad8e877fc3a38fe49f11cdd2650b"
+    },
+    {
+      "path": "seer/scoring/__init__.py",
+      "size_bytes": 1045,
+      "sha256": "96283812d4ec1a527063c1b7d8f2cb4a88aef91204643e8c6e5a6d9611dfefbd"
+    },
+    {
+      "path": "seer/scoring/decomp_binary.py",
+      "size_bytes": 1269,
+      "sha256": "79b9b168ca8260a3fa16ad0fbaf7d1a2820180f4b393a5ce65e07dec994314b1"
+    },
+    {
+      "path": "seer/scoring/gold.py",
+      "size_bytes": 1955,
+      "sha256": "fed4db235d63ce61d05d0da5a0277252c7f046738da60019f7288deef1db7f6f"
+    },
+    {
+      "path": "seer/scoring/mmr.py",
+      "size_bytes": 8036,
+      "sha256": "3ff436ae0cd341d5a9170782690df43df980f6f68177ce0267cec39728aa2587"
+    },
+    {
+      "path": "seer/scoring/requirements.py",
+      "size_bytes": 3301,
+      "sha256": "40ea3ce72f424ad47caf5d8eee85f74215181a5aa9401fa0a778fe8921d27c42"
+    },
+    {
+      "path": "seer/scoring/seer.py",
+      "size_bytes": 4110,
+      "sha256": "6bb44fb924fc2aa72b75b10675a1271f7d2d592047cbb80935c05e6f469dbd03"
+    },
+    {
+      "path": "seer/seer_metrics.py",
+      "size_bytes": 3369,
+      "sha256": "c2f13405ec49327acd7da003d83fb2b78e311e70d3c2494686d84ba9e1a1033a"
+    },
+    {
+      "path": "seer/seer_optimization_metric.py",
+      "size_bytes": 3473,
+      "sha256": "f86fb7f22946366cdd16a1b78baf4c778fd4253f32d62a6a7e74ce81d1e87eed"
+    },
+    {
+      "path": "seer/stats.py",
+      "size_bytes": 7914,
+      "sha256": "a2444f3729bfb5e9992b64bc614bcc93ec25f82a122817b47dddfccb9f5faaf4"
+    },
+    {
+      "path": "seer/util_hash.py",
+      "size_bytes": 182,
+      "sha256": "d9bb325f7e17b72d4154b020d95b1804b90895d8c1679d6141c4040271d65cac"
+    },
+    {
+      "path": "seer/util_io.py",
+      "size_bytes": 1111,
+      "sha256": "3135a380653ba36aeafe9a778f2f3f4868c152cfd3e89e9dc368cdea0c24be85"
+    },
+    {
+      "path": "seer/util_litellm.py",
+      "size_bytes": 2952,
+      "sha256": "03bdc752ce769d3fd16a0b90dc4d4a2673d1bc592aef4aad9802606853330c3f"
+    },
+    {
+      "path": "seer/util_log.py",
+      "size_bytes": 662,
+      "sha256": "464cfdd71906a50dac859f44029b1a69923a275bcabe2c091f4d32f4352c512c"
+    },
+    {
+      "path": "seer/util_text.py",
+      "size_bytes": 695,
+      "sha256": "8073e2be52bb3e4eac207dd7fdc0bd3c9f47f1864915ddb26aac3a03f2428968"
+    },
+    {
+      "path": "tests/fixtures/datasets/hotpot_fullwiki_samples.json",
+      "size_bytes": 10074,
+      "sha256": "5c6c1befbb184e72aa8ce3cd2be67e267118e868c51592001d85fdd3af85c642"
+    },
+    {
+      "path": "tests/fixtures/datasets/hotpot_raw_samples.json",
+      "size_bytes": 8530,
+      "sha256": "114a0ccdbdf9321919a1f4e497ae6dd19d75a553f47965bdf69d9848a85e70ce"
+    },
+    {
+      "path": "tests/fixtures/datasets/musique_raw_samples.json",
+      "size_bytes": 24713,
+      "sha256": "9fdb6df6a5cc5a9f1da17582c6ed000f922989cb0d1248f6f40b545bda1eedcc"
+    },
+    {
+      "path": "tests/test_dpo_utils.py",
+      "size_bytes": 1660,
+      "sha256": "c087e21a40a4e1a55abb7cf918fd7f95ade29aff08672bc3878008b580f80bfc"
+    },
+    {
+      "path": "tests/test_dpo_validate.py",
+      "size_bytes": 871,
+      "sha256": "ad8316326fa154527cc7c8b773a8587135d345ec1c4c9ae721107a72df59eca7"
+    },
+    {
+      "path": "tests/test_normalize_datasets_script.py",
+      "size_bytes": 4244,
+      "sha256": "62f9a9a760ede38bc115add731c3fa8a1720d626d60c1512ac3983f7bd3b0657"
+    },
+    {
+      "path": "tests/test_sft_prepare_data.py",
+      "size_bytes": 10461,
+      "sha256": "0c2d2a583a042ccf1b0a8d929f73a899bcdea44bdc77c8a83fe350a5ea07f1c3"
+    },
+    {
+      "path": "uv.lock",
+      "size_bytes": 656652,
+      "sha256": "8c8677c220707e61ffe659cd09e0d6add25998aa511107b772534d8d11b421ca"
+    },
+    {
+      "path": "README.review.md",
+      "size_bytes": 1197,
+      "sha256": "bb602bde6f69a3a5b843a6e0395629ff6bef69d13b5f2774e1521be1507c990b"
+    }
+  ]
+}

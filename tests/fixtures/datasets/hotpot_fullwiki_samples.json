@@ -1,0 +1,203 @@
+{
+  "source": "data/raw/hotpot_fullwiki/hotpot_dev_fullwiki_v1.json",
+  "notes": "Real samples, string-truncated for compactness. List context format (fullwiki style).",
+  "records": [
+    {
+      "_id": "5a8b57f25542995d1e6f1371",
+      "level": "hard",
+      "type": "comparison",
+      "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+      "answer": "yes",
+      "supporting_facts": [
+        [
+          "Scott Derrickson",
+          0
+        ],
+        [
+          "Ed Wood",
+          0
+        ]
+      ],
+      "context": [
+        [
+          "Adam Collis",
+          [
+            "Adam Collis is an American filmmaker and actor.",
+            " He attended the Duke University from 1986 to 1990 and the University of California, Los Angeles from 2007 to 2010.",
+            " He also studied cinema at the University of Southern California from 1991 to 1997."
+          ]
+        ],
+        [
+          "Ed Wood (film)",
+          [
+            "Ed Wood is a 1994 American biographical period comedy-drama film directed and produced by Tim Burton, and starring Johnny Depp as cult filmmaker Ed Wood.",
+            " The film concerns the period in Wood's life when he made his best-known films as well as his relationship with actor Bela Lugosi, played by Martin Landau.",
+            " Sarah Jessica Parker, Patricia Arquette, Jeffrey Jones, Lisa Marie, and Bill Murray are among the supporting cast."
+          ]
+        ],
+        [
+          "Tyler Bates",
+          [
+            "Tyler Bates (born June 5, 1965) is an American musician, music producer, and composer for films, television, and video games.",
+            " Much of his work is in the action and horror film genres, with films like \"Dawn of the Dead, 300, Sucker Punch,\" and \"John Wick.\"",
+            " He has collaborated with directors like Zack Snyder, Rob Zombie, Neil Marshall, William Friedkin, Scott Derrickson, and James Gunn."
+          ]
+        ],
+        [
+          "Doctor Strange (2016 film)",
+          [
+            "Doctor Strange is a 2016 American superhero film based on the Marvel Comics character of the same name, produced by Marvel Studios and distributed by Walt Disne...",
+            " It is the fourteenth film of the Marvel Cinematic Universe (MCU).",
+            " The film was directed by Scott Derrickson, who wrote it with Jon Spaihts and C. Robert Cargill, and stars Benedict Cumberbatch as Stephen Strange, along with C..."
+          ]
+        ],
+        [
+          "Hellraiser: Inferno",
+          [
+            "Hellraiser: Inferno (also known as Hellraiser V: Inferno) is a 2000 American horror film.",
+            " It is the fifth installment in the \"Hellraiser\" series and the first \"Hellraiser\" film to go straight-to-DVD.",
+            " It was directed by Scott Derrickson and released on October 3, 2000."
+          ]
+        ],
+        [
+          "Sinister (film)",
+          [
+            "Sinister is a 2012 supernatural horror film directed by Scott Derrickson and written by Derrickson and C. Robert Cargill.",
+            " It stars Ethan Hawke as fictional true-crime writer Ellison Oswalt who discovers a box of home movies in his attic that puts his family in danger."
+          ]
+        ],
+        [
+          "Deliver Us from Evil (2014 film)",
+          [
+            "Deliver Us from Evil is a 2014 American supernatural horror film directed by Scott Derrickson and produced by Jerry Bruckheimer.",
+            " The film is officially based on a 2001 non-fiction book entitled \"Beware the Night\" by Ralph Sarchie and Lisa Collier Cool, and its marketing campaign highligh...",
+            " The film stars Eric Bana, Édgar Ramírez, Sean Harris, Olivia Munn, and Joel McHale in the main roles and was released on July 2, 2014."
+          ]
+        ],
+        [
+          "Woodson, Arkansas",
+          [
+            "Woodson is a census-designated place (CDP) in Pulaski County, Arkansas, in the United States.",
+            " Its population was 403 at the 2010 census.",
+            " It is part of the Little Rock–North Little Rock–Conway Metropolitan Statistical Area."
+          ]
+        ],
+        [
+          "Conrad Brooks",
+          [
+            "Conrad Brooks (born Conrad Biedrzycki on January 3, 1931 in Baltimore, Maryland) is an American actor.",
+            " He moved to Hollywood, California in 1948 to pursue a career in acting.",
+            " He got his start in movies appearing in Ed Wood films such as \"Plan 9 from Outer Space\", \"Glen or Glenda\", and \"Jail Bait.\""
+          ]
+        ],
+        [
+          "The Exorcism of Emily Rose",
+          [
+            "The Exorcism of Emily Rose is a 2005 American legal drama horror film directed by Scott Derrickson and starring Laura Linney and Tom Wilkinson.",
+            " The film is loosely based on the story of Anneliese Michel and follows a self-proclaimed agnostic who acts as defense counsel (Linney) representing a parish pr..."
+          ]
+        ]
+      ]
+    },
+    {
+      "_id": "5a8c7595554299585d9e36b6",
+      "level": "hard",
+      "type": "bridge",
+      "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+      "answer": "Chief of Protocol",
+      "supporting_facts": [
+        [
+          "Kiss and Tell (1945 film)",
+          0
+        ],
+        [
+          "Shirley Temple",
+          0
+        ],
+        [
+          "Shirley Temple",
+          1
+        ]
+      ],
+      "context": [
+        [
+          "A Kiss for Corliss",
+          [
+            "A Kiss for Corliss is a 1949 American comedy film directed by Richard Wallace and written by Howard Dimsdale.",
+            " It stars Shirley Temple in her final starring role as well as her final film appearance.",
+            " It is a sequel to the 1945 film \"Kiss and Tell\"."
+          ]
+        ],
+        [
+          "Lord High Treasurer",
+          [
+            "The post of Lord High Treasurer or Lord Treasurer was an English government position and has been a British government position since the Acts of Union of 1707.",
+            " A holder of the post would be the third-highest-ranked Great Officer of State, below the Lord High Steward and the Lord High Chancellor."
+          ]
+        ],
+        [
+          "Meet Corliss Archer (TV series)",
+          [
+            "Meet Corliss Archer is an American television sitcom that aired on CBS (July 13, 1951 - August 10, 1951) and in syndication via the Ziv Company from April to De...",
+            " The program was an adaptation of the radio series of the same name, which was based on a series of short stories by F. Hugh Herbert."
+          ]
+        ],
+        [
+          "Village accountant",
+          [
+            "The Village Accountant (variously known as \"Patwari\", \"Talati\", \"Patel\", \"Karnam\", \"Adhikari\", \"Shanbogaru\",\"Patnaik\" etc.) is an administrative government posi...",
+            " The office and the officeholder are called the \"patwari\" in Telangana, Bengal, North India and in Pakistan while in Sindh it is called \"tapedar\".",
+            " The position is known as the \"karnam\" in Andhra Pradesh, \"patnaik\" in Orissa or \"adhikari\" in Tamil Nadu, while it is commonly known as the \"talati\" in Karnata..."
+          ]
+        ],
+        [
+          "Joseph Kalite",
+          [
+            "Joseph Kalite (died 24 January 2014) was a Central African politician.",
+            " As a government minister he either held the housing or health portfolio.",
+            " Kalite, a Muslim, was reported to be killed by anti-balaka outside the Central Mosque in the capital Bangui during the Central African Republic conflict."
+          ]
+        ],
+        [
+          "Charles Craft",
+          [
+            "Charles Craft (May 9, 1902 – September 19, 1968) was an English-born American film and television editor.",
+            " Born in the county of Hampshire in England on May 9, 1902, Craft would enter the film industry in Hollywood in 1927.",
+            " The first film he edited was the Universal Pictures silent film, \"Painting the Town\"."
+          ]
+        ],
+        [
+          "Meet Corliss Archer",
+          [
+            "Meet Corliss Archer, a program from radio's Golden Age, ran from January 7, 1943 to September 30, 1956.",
+            " Although it was CBS's answer to NBC's popular \"A Date with Judy\", it was also broadcast by NBC in 1948 as a summer replacement for \"The Bob Hope Show\".",
+            " From October 3, 1952 to June 26, 1953, it aired on ABC, finally returning to CBS."
+          ]
+        ],
+        [
+          "Janet Waldo",
+          [
+            "Janet Marie Waldo (February 4, 1920 – June 12, 2016) was an American radio and voice actress.",
+            " She is best known in animation for voicing Judy Jetson, Nancy in \"Shazzan\", Penelope Pitstop, and Josie in \"Josie and the Pussycats\", and on radio as the title..."
+          ]
+        ],
+        [
+          "Kiss and Tell (1945 film)",
+          [
+            "Kiss and Tell is a 1945 American comedy film starring then 17-year-old Shirley Temple as Corliss Archer.",
+            " In the film, two teenage girls cause their respective parents much concern when they start to become interested in boys.",
+            " The parents' bickering about which girl is the worse influence causes more problems than it solves."
+          ]
+        ],
+        [
+          "Secretary of State for Constitutional Affairs",
+          [
+            "The office of Secretary of State for Constitutional Affairs was a British Government position, created in 2003.",
+            " Certain functions of the Lord Chancellor which related to the Lord Chancellor's Department were transferred to the Secretary of State.",
+            " At a later date further functions were also transferred to the Secretary of State for Constitutional Affairs from the First Secretary of State, a position with..."
+          ]
+        ]
+      ]
+    }
+  ]
+}

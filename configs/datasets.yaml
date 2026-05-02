@@ -1,0 +1,9 @@
+datasets:
+  musique:
+    raw_dir: data/raw/musique
+    norm_path: data/norm/musique.jsonl
+    type: primary
+  hotpot:
+    raw_dir: data/raw/hotpot
+    norm_path: data/norm/hotpot.jsonl
+    type: secondary

@@ -1,0 +1,38 @@
+# MMR Iteration IPO — 20K-25K questions, LoRA r=64
+# MMR iteration SFT (π₂) + MMR-scored IPO
+# Iterative self-training: base π₁ (MMR SFT+IPO merged) → iteration SFT → iteration IPO
+# Tests: does MMR iteration beat MMR data scaling (+0.58pp)?
+#
+# π₁ = mmr-iter1-merged (qlora-out-jina-mmr-5k-k3 + dpo-mmr-5k-ipo-r64, merged)
+# π₂ SFT = qlora-out-mmr-iteration-20k-25k (trained on mmr-iter1-merged base)
+# NOTE: base_model is the merged π₁, NOT base Llama. SFT adapter sits on top.
+#
+# Pairs: 12,666 at min-gap=0.05 (vs Gold iteration 12,268 — within 3.2%)
+# Threshold 0.05 used instead of 0.10 for methodological consistency:
+# policy convergence compresses MMR score range, requiring lower threshold
+# to maintain matched pair volume with gold baseline (as done throughout experiment).
+
+base_model: /workspace/data/merged_models/mmr-iter1-merged
+sft_adapter: /workspace/data/seer_sft/qlora-out-mmr-iteration-20k-25k
+train_data: /workspace/data/seer_sft/hotpot_dpo_mmr_iteration_20k_25k_mingap05.jsonl
+output_dir: /workspace/data/dpo_out/dpo-mmr-iteration-20k-25k-ipo-r64
+
+loss_type: ipo
+beta: 0.1
+learning_rate: 5e-7
+num_epochs: 2
+warmup_steps: 150
+
+lora_r: 64
+lora_alpha: 128
+lora_dropout: 0.05
+
+micro_batch_size: 1
+gradient_accumulation_steps: 8
+max_length: 1536
+max_prompt_length: 1280
+
+wandb_project: huggingface
+wandb_run_name: dpo-mmr-iteration-20k-25k-ipo-r64
+save_steps: 500
+eval_steps: 250

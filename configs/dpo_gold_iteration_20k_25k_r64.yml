@@ -1,0 +1,32 @@
+# Gold Iteration IPO — 20K-25K questions, LoRA r=64
+# Gold iteration SFT (π₂) + Gold-scored IPO
+# Iterative self-training: base π₁ (Gold SFT+IPO merged) → iteration SFT → iteration IPO
+# Tests: does iterative training on new data improve over single-round?
+
+sft_adapter: /workspace/data/seer_sft/qlora-out-gold-iteration-20k-25k
+train_data: /workspace/data/seer_sft/hotpot_dpo_gold_iteration_20k_25k.jsonl
+output_dir: /workspace/data/dpo_out/dpo-gold-iteration-20k-25k-ipo-r64
+
+# NOTE: base_model for DPO script (scripts/dpo/train.py) should be the merged
+# gold-iter1 model, NOT base Llama. The SFT adapter sits on top of the merged model.
+base_model: /workspace/data/merged_models/gold-iter1-merged
+
+loss_type: ipo
+beta: 0.1
+learning_rate: 5e-7
+num_epochs: 2
+warmup_steps: 150
+
+lora_r: 64
+lora_alpha: 128
+lora_dropout: 0.05
+
+micro_batch_size: 1
+gradient_accumulation_steps: 8
+max_length: 1536
+max_prompt_length: 1280
+
+wandb_project: seer-experiment
+wandb_run_name: dpo-gold-iteration-20k-25k-ipo-r64
+save_steps: 500
+eval_steps: 250

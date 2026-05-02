@@ -1,0 +1,10 @@
+openrouter:
+  base_url: https://openrouter.ai/api/v1
+  api_key_env: OPENROUTER_API_KEY
+  concurrency: 10
+  temperature: 0.0
+models:
+  judge_a: gpt-4o-mini
+  judge_b: claude-3-haiku
+  judge_c: gemini
+reader_model: claude-3-haiku
